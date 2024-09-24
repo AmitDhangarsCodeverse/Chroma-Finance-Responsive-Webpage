@@ -1,0 +1,485 @@
+.section-1{
+ background-image:url(Media/image_search_1718177372374.jpg);
+}
+.top-menu{
+
+}
+.menu-logo{
+ height:30px;
+ width:30px;
+ background-image: url(Media/image_search_1718177215935.jpg);
+ background-size: cover;
+ border-radius:20px;
+}
+.top-menu p{
+ margin-left:10px;
+ color:rgb(244, 240, 240);
+ font-size:1.17rem;
+ font-weight:600;
+}
+.menu-list a{
+ padding-left:30px;
+ color:rgb(248, 245, 245);;
+}
+.section-2{
+ margin-top:100px;
+}
+.banner-1{
+}
+.banner-1 h1{
+ font-size:3.2rem;
+ color:white;
+ font-weight:600;
+}
+.banner-1 p{
+ margin-top:1px;
+ margin-left:80px;
+ color: rgb(224, 216, 216);
+ font-weight:500;
+ font-size:.85rem;
+}
+video{
+ min-height:auto;
+ border-radius:20px;
+
+}
+.cards{
+ padding-left:30px;
+}
+.cards h4{
+ color: white;
+ font-size:1.2rem;
+
+}
+.card{
+ background-color:rgba(126, 10, 188, 0.69);
+ border: 2px solid rgb(162, 0, 255);
+ height: 300px;
+ width: 250px;
+ padding:17px;
+ margin-left:25px;
+}
+.card i{
+ color: rgb(255, 255, 255);
+ font-size:1.7rem;
+ padding-bottom:4px;
+}
+.banner-4{
+}
+.poster{
+ height:400px;
+ background-image: url(Media/image_search_1718177215935.jpg);
+ border-radius:25px;
+ border-top:1px solid blue;
+ border-left:1px solid blue;
+}
+.info-banner{
+ margin-top:120px;
+}
+.banner-4 h3{
+ color: white;
+}
+.banner-4 p{
+ color: rgb(231, 217, 217);
+}
+.banner-5{
+
+}
+.rectangle-banner{
+ height:150px;
+ background-color:rgba(126, 10, 188, 0.69);
+ border-top:2px solid rgb(162, 0, 255);
+ border-left:2px solid rgb(162, 0, 255);
+ border-radius:20px;
+}
+.fa-chart-pie{
+ font-size:16.5rem;
+ color:rgba(126, 10, 188, 0.597);
+ margin-left:150px;
+}
+.insider-card{
+ margin-left:10px;
+ height: 100px;
+ width:200px;
+ border:2px solid white;
+ border-radius: 20px;
+}
+.insider-card p{
+ color: rgb(190, 192, 194);
+ padding:5px;
+ margin-bottom:-5px;
+}
+.insider-card .heading{
+ font-size:1rem;
+ font-weight: 600;
+}
+.co-logo-amazon{
+ background-image: url(Media/Amazon.png);
+ background-size: cover;
+} 
+.co-logo-meta{
+ background-image: url(Media/Meta.png);
+ background-size: cover;
+} 
+.co-logo-apple{
+ background-image: url(Media/Apple.png);
+ background-size: cover;
+} 
+.co-logo-netflix{
+ background-image: url(Media/Amazon.png);
+ background-size:cover;
+} 
+.img-co{
+ height:150px;
+ width: 25s0px;
+ border:1px solid white;
+ border-radius:20px;
+}
+.faq-cards{
+ margin-top:10px;
+ height:150px;
+ background-color: rgba(126, 10, 188, 0.69);
+ border: 2px solid rgb(162, 0, 255);
+ border-radius:25px;
+ padding: 30px;
+}
+.faq-cards h4{
+ color: White;
+ font-size:1.5rem;
+}
+.faq-cards p{
+ color: rgb(231, 235, 235);
+ font-weight: 500;
+ font-size:.85rem;
+}
+.community-banner{
+ height:180px;
+ background-image: url(Media/testimonialas.jfif);
+ background-size: cover;
+ border-radius:20px;
+}
+.btn-Discord{
+background-color: rgb(128, 24, 226);
+}
+.btn-Telegram{
+background-color: rgb(55, 148, 191);
+}
+.footer-logo{
+ height:60px;
+ width:60px; 
+ background-image: url(Media/image_search_1718177215935.jpg);
+ background-size: cover;
+ border-radius:20px;
+
+}
+.footer-panel{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.481);
+ border-radius:20px;
+ padding-top:15px;
+
+}
+.social-icon i{
+ margin-right:35px;
+ color:white;
+ font-size:1.8rem;
+}
+@media only screen and (max-width:600px){
+ .menu-logo{
+  height:70px;
+  width:70px;
+  border-radius:50%;
+ }
+ .top-menu p{
+  margin-left:30px;
+  font-size:2.5rem;
+ }
+  .menu-list a{
+   margin-top:5px;
+   height:50px;
+   padding-left:63px;
+}
+.section-2{
+   margin-top:10px;
+  }
+  .banner-1 h1{
+   margin-top:10px;
+   font-size:2.5rem;
+  }
+   
+  .banner-1 p{
+    margin-left:50px;
+    font-weight:500;
+    font-size:.7rem;
+   }
+  video{
+    margin-top:15px;
+   max-height:200px;
+  border-radius:20px;
+   }
+   
+.card{
+    height: 200px;
+    width: 450px;
+    padding-top:15px;
+    margin-top:15px;
+    }
+.cards h4{
+     font-size:1rem;
+    }
+.cards p{
+      color: white;
+     font-size:.8rem;
+    }
+.card i{
+      font-size:1.32rem;
+      padding-bottom:5px;
+     }
+.poster{
+      height:300px;
+      width:500px;
+      border-radius:10px;
+      background-size: cover;
+    }
+.info-banner{
+      margin-top:40px;
+    }
+
+.banner-4 p{
+      font-size:0.8rem;
+      color: rgb(231, 217, 217);
+     }
+.rectangle-banner{
+      height:120px;
+}
+.rectangle-banner p{
+  font-size:.8rem;
+  font-weight: 500;
+}
+.rectangle-banner h3{
+  font-size: 1.5rem;
+}
+.rectangle-banner h4{
+  font-size: 1.3rem;
+}
+.fa-chart-pie{
+  font-size:12rem;
+  margin-top:10px;
+  margin-bottom:12px;
+}
+.insider-card{
+  margin-left:23px;
+  height: 75px;
+  width: 140px;
+  padding:2px;
+ }
+ .insider-card p{
+  font-size:0.7rem;
+  padding:5px;
+ }
+ .insider-card .heading{
+  font-size:.9rem;
+ }
+.note p{
+  font-size:0.7rem;
+}
+.img-co{
+  margin-left:100px;
+  margin-top:20px;
+  height:150px;
+  width: 300px;
+  border:1px solid white;
+  border-radius:20px;
+ }
+ .faq-cards{
+  margin-top:10px;
+  height:150px;
+ }
+.faq-cards h4{
+  font-size:1rem;
+ }
+.faq-cards p{
+  font-size:0.6rem;
+}
+.community-banner{
+  height:180px;
+  background-image: url(Media/testimonialas.jfif);
+  background-size: cover;
+  border-radius:20px;
+}
+.footer-logo{
+  height:30px;
+  width:30px; 
+  background-size: cover;
+}
+.footer-txt{
+font-size:.7rem;
+}
+.footer-links{
+  font-size:.8rem;
+}
+.footer-links h4{
+font-size:1rem;
+}
+.social-icon i
+{
+  margin-right:75px;
+  font-size:1.6rem;
+  margin-bottom:5px;
+}
+.footer-panel{
+padding-top:15px;
+}
+.footer-panel p{
+font-size:.8rem;
+}
+}
+@media screen and (max-width:431px){
+  .menu-logo{
+    height:65px;
+    width:65px;
+   }
+.top-menu p{
+  margin-top:9px;
+  margin-left:15px;
+  font-size:1.9rem;
+}
+.menu-list a{
+     font-size:1rem;
+     margin-left:15px;
+}
+.banner-1 h1{
+     font-size:2.2rem;
+}
+     
+.banner-1 p{
+      margin-left:25px;
+      font-weight:500;
+      font-size:.5rem;
+}
+    video{
+      margin-top:20px;
+     max-height:150px;
+      border-radius:15px;
+     }
+     
+  .card{
+       height: 170px;
+       width: 280px;
+      padding-top:15px;
+      margin-top:7px;
+      }
+  .cards h4{
+       font-size:1rem;
+      }
+  .cards p{
+        color: white;
+       font-size:.6rem;
+      }
+  .card i{
+        font-size:1.32rem;
+        padding-bottom:5px;
+       }
+  .poster{
+        height:300px;
+        width:380px;
+        border-radius:10px;
+        background-size: cover;
+      }
+  .info-banner{
+        margin-top:25px;
+      }
+  
+  .banner-4 p{
+        font-size:0.7rem;
+        color:white;
+       }
+  .rectangle-banner{
+        height:120px;
+  }
+  .rectangle-banner p{
+    font-size:.65rem;
+    font-weight: 500;
+  }
+  .rectangle-banner h3{
+    font-size: 1.3rem;
+  }
+  .rectangle-banner h4{
+    font-size: 1rem;
+  }
+  .fa-chart-pie{
+    font-size:12rem;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  .insider-card{
+    margin-left:5px;
+    height: 75px;
+    width: 120px;
+    padding:2px;
+   }
+   .insider-card p{
+    font-size:0.7rem;
+    padding:5px;
+   }
+   .insider-card .heading{
+    font-size:.7rem;
+   }
+  .note p{
+    font-size:0.6rem;
+  }
+  .img-co{
+    margin-left:60px;
+    margin-top:20px;
+    height:150px;
+    width: 280px;
+    border:1px solid white;
+    border-radius:20px;
+   }
+   .faq-cards{
+    margin-top:10px;
+    height:150px;
+    padding:10px;
+   }
+  .faq-cards h4{
+    font-size:1rem;
+   }
+  .faq-cards p{
+    font-size:0.53rem;
+  }
+  .community-banner{
+    height:180px;
+    background-image: url(Media/testimonialas.jfif);
+    background-size: cover;
+    border-radius:20px;
+  }
+  .footer-logo{
+    height:25px;
+    width:25px; 
+    background-size: cover;
+  }
+  .footer-txt{
+  font-size:.5rem;
+  }
+  .footer-links{
+    font-size:.5rem;
+  }
+  .footer-links h4{
+  font-size:.7rem;
+  }
+  .social-icon i
+  {
+    margin-right:50px;
+    font-size:1rem;
+    margin-bottom:10px;
+  }
+  .footer-panel{
+  height:20px;
+  padding-top:15px;
+  }
+  .footer-panel p{
+  font-size:.5rem;
+  }
+}
